@@ -1,0 +1,14 @@
+# HDin — Photo Restoration & HD Enhancement Studio
+# Allow all crawlers to index the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hdin.vercel.app/sitemap.xml
+
+# Disallow non-public paths (none currently, but good practice)
+# Disallow: /api/
+# Disallow: /private/
+
+# Crawl-delay not needed for static sites
+# Crawl-delay: 10

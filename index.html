@@ -3,19 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HDin — Restorasi &amp; Peningkatan Foto HD</title>
+    <title>HDin — Restorasi & Peningkatan Foto HD</title>
     <meta name="description" content="HDin adalah studio restorasi dan peningkatan resolusi foto HD untuk potret, foto lama, bangunan, dan lanskap. Unggah foto apa saja, atur detail, dan unduh hingga 4× Ultra." />
-    <meta property="og:title" content="HDin — Restorasi &amp; Peningkatan Foto HD" />
+    <meta name="theme-color" content="#0A0A0B" />
+    <meta property="og:title" content="HDin — Restorasi & Peningkatan Foto HD" />
     <meta property="og:description" content="HDin adalah studio restorasi dan peningkatan resolusi foto HD untuk potret, foto lama, bangunan, dan lanskap. Unggah foto apa saja, atur detail, dan unduh hingga 4× Ultra." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hdin.vercel.app/" />
+    <meta property="og:image" content="https://hdin.vercel.app/src/assets/images/demo_portrait_studio_1795360781146.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HDin — Restorasi & Peningkatan Foto HD" />
+    <meta name="twitter:description" content="Studio restorasi foto HD gratis di browser. Perbaiki blur, noise, dan resolusi rendah hingga 4× Ultra." />
+    <meta name="twitter:image" content="https://hdin.vercel.app/src/assets/images/demo_portrait_studio_1795360781146.jpg" />
+    <link rel="canonical" href="https://hdin.vercel.app/" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="robots" href="/robots.txt" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- JSON-LD Structured Data for WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "HDin",
+      "alternateName": "HDin Photo Restoration Studio",
+      "url": "https://hdin.vercel.app/",
+      "description": "Free browser-based photo restoration and HD enhancement studio. Fix blur, noise, and low resolution up to 4x Ultra. Runs entirely client-side for privacy.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any (Web)",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "IDR",
+        "availability": "https://schema.org/InStock"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Novanda Ega Arenta",
+        "url": "https://github.com/zenoxyn"
+      },
+      "featureList": [
+        "Before/After comparison slider",
+        "AI-powered pixel diagnostics",
+        "6 restoration presets",
+        "Manual enhancement controls",
+        "Aspect ratio cropping with focal point",
+        "1x/2x/4x resolution upscaling",
+        "JPEG/PNG export",
+        "Drag-drop & clipboard paste upload"
+      ],
+      "screenshot": "https://hdin.vercel.app/src/assets/images/demo_portrait_studio_1795360781146.jpg",
+      "license": "https://opensource.org/licenses/MIT"
+    }
+    </script>
   </head>
   <body class="bg-[#0A0A0B] text-zinc-100 antialiased selection:bg-[#F2B705]/30 selection:text-amber-100">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
