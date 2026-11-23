@@ -2,14 +2,14 @@
   <h1>📸 HDin — Photo Restoration & HD Enhancement Studio</h1>
   <p><strong>Browser-based photo restoration studio for blurry, noisy & low-resolution shots</strong></p>
   <p>
-    <a href="#why-i-built-this">Why I Built This</a> •
-    <a href="#features">Features</a> •
-    <a href="#how-it-works">How It Works</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#deploying-to-vercel">Deploy</a> •
-    <a href="#project-structure">Project Structure</a> •
-    <a href="#author">Author</a>
+    <a href="#-why-i-built-this">Why I Built This</a> •
+    <a href="#-features">Features</a> •
+    <a href="#-how-it-works">How It Works</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-deploying-to-vercel">Deploy</a> •
+    <a href="#-project-structure">Project Structure</a> •
+    <a href="#-author">Author</a>
   </p>
   <p>Built by <a href="https://github.com/zenoxyn"><strong>@zenoxyn</strong></a></p>
 </div>
