@@ -7,7 +7,7 @@
     <a href="#-how-it-works">How It Works</a> •
     <a href="#-tech-stack">Tech Stack</a> •
     <a href="#-getting-started">Getting Started</a> •
-    <a href="#-deploying-to-vercel">Deploy</a> •
+    <a href="#%EF%B8%8F-deploying-to-vercel">Deploy</a> •
     <a href="#-project-structure">Project Structure</a> •
     <a href="#-author">Author</a>
   </p>
